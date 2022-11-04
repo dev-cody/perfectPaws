@@ -1,22 +1,15 @@
 const express = require('express')
-const pool = require('./database')
+
+//route imports
+const colorsRouter = require('./routes/colorsRoutes')
 
 const app = express()
 app.use(express.json())
 
-app.get('/', (req, res) => {
-    pool.query(`SELECT * FROM pawFriends.colors`, (err, dbRes) =>{
-        if(!err) {
-            res.json({
-                message: dbRes
-            })
-        } else {
-            res.json({
-                message: err
-            })
-        }
-    })
-})
+//routes
+//TODO Create more routes
+app.use('/api/v1/colors', colorsRouter)
+
 
 app.listen(5050, () => {
     console.log(`Server is running on port 5050`)

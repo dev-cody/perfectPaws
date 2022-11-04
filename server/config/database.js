@@ -1,10 +1,11 @@
-const { createPool } = require('mysql')
+require('dotenv').config()
+const mysql = require('mysql')
 
-const pool = createPool({
+const db = mysql.createConnection({
     host: process.env.HOST,
     user: process.env.USER,
     password: process.env.PASSWORD,
     connectionLimit: 10
 })
 
-module.exports = pool
+module.exports = db
