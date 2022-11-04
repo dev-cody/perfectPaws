@@ -1,9 +1,9 @@
 const { createPool } = require('mysql')
 
 const pool = createPool({
-    host: "localhost",
-    user: "root",
-    password: "tuffy243",
+    host: process.env.HOST,
+    user: process.env.USER,
+    password: process.env.PASSWORD,
     connectionLimit: 10
 })
 
