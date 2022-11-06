@@ -4,8 +4,9 @@ const router = express.Router()
 
 router.route('/')
     .get(breedsController.getBreeds)
-    // .post(colorsController.addColor)
-    // .delete(colorsController.deleteColor)
-    // .patch(colorsController.updateColor)
+    .post(breedsController.addbreed)
+    .delete(breedsController.deletebreed)
+    .patch(breedsController.updatebreed)
 
 module.exports = router
+
