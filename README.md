@@ -17,13 +17,10 @@ The server is build with NodeJS and a MySQL database
 Running this locally would require a MySQL database instance
 
 ### Server Endpoints
-The base URL for the server endpoints is `/api/v1`
 More to come!
 
-#### Monitoring
-| Method | Endpoint                    | Access Control | Description                                  |
-| ------ | --------------------------- | -------------- | -------------------------------------------- |
-| GET    | `/`                         | All            | Returns a message indicating server is up    |
+API base URL: `/api/v1`
+
 
 ### Colors
 | Method | Endpoint                    | Access Control | Description                                    |
