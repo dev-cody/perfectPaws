@@ -1,4 +1,9 @@
 # Perfect Paws Documentation
+Perfect Paws is a pert adoption website to help families find and apply to adopt their new best friend. 
+
+This website will feature an easy to use administrator login for a owners of the company to add, remove, update pet listings. They will also be able to see application requests from potential adopters. 
+
+This is a full-stack development project created by dev-cody.
 
 ## Getting Started
 
@@ -20,7 +25,6 @@ Running this locally would require a MySQL database instance
 More to come!
 
 API base URL: `/api/v1`
-
 
 ### Colors
 | Method | Endpoint                    | Access Control | Description                                    |
