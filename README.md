@@ -8,18 +8,18 @@ This is a full-stack development project created by dev-cody.
 ## Getting Started
 
 ### Client
-Client not setup yet
+The frontend of the website is a React app with TypeScript using Vite.
 
 * * * 
 
 ### Server
-The server is build with NodeJS and a MySQL database
+The server is build with NodeJS and a MySQL database.
 
 
-- Clone this repo
-- **npm install** to install all required dependencies
+- Clone this repo.
+- **npm install** to install all required dependencies.
 
-Running this locally would require a MySQL database instance
+Running this locally would require a MySQL database instance.
 
 ### Server Endpoints
 More to come!
